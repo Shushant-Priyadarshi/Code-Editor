@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.left{
+    flex-basis: 50%;
+    background-color: #dda15e;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.right{
+    flex-basis: 50%;
+    background-color: #dda15e;
+    height: 100%;
+}
+
+.content{
+    flex-basis: 33%;
+   
+    margin: 1rem;
+      
+   
+}
+
+.left .content textarea{
+    width: 100%;
+    height: 80%;
+    outline: none;
+    border: none;
+
+}
+
+.left .content label{
+    display: block;
+    background-color: #dda15e;
+    color: #283618;
+    text-align: center;
+    height: 2rem;
+    font-size: large;
+    font-weight: bold;
+   
+}
+
+.right label{
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 2rem;
+    color:#283618 ;
+    margin: .1rem;
+}
+
+.myfame{
+   display: block;
+   width: 100%;
+    background-color: white; 
+   box-sizing: border-box;
+   height: 85%;
+   margin: 1rem;
+   border:none;
+}
+
+textarea{
+    font-size: 1rem;
+}
+
+.circle-btn {
+    width: 40px; /* Adjust the size of the button */
+    height: 40px; /* Adjust the size of the button */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ffd700; /* Set background color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.circle-btn img {
+    width: 60%; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+
+.dark-mode{
+    color:white;
+    background-color: black;
+}
+
+.light-mode{
+    background-color: #dda15e;
+    color: #283618;
+}
+
+.btn-container{
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-around;
+   
+}
